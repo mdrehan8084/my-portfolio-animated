@@ -1,7 +1,14 @@
-import Portfolio from "./Portfolio";
+import { useState } from "react";
+import IntroScreen from "./IntroScreen";
+import Portfolio from "./Portfolio"; // aapka main file
 
-function App() {
-  return <Portfolio />;
+export default function App() {
+  const [loaded, setLoaded] = useState(false);
+
+  return (
+    <>
+      {!loaded && <IntroScreen onDone={() => setLoaded(true)} />}
+      <Portfolio />
+    </>
+  );
 }
-
-export default App;

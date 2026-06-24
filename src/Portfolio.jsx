@@ -510,7 +510,7 @@ const skills = [
   ["🗄️", "MySQL"],
   ["📝", "WordPress"],
   ["🔁", "REST APIs"],
-  ["🛠️", "Git & GitHub"],
+  ["🛠️", "Git & GitHb"],
 ];
 
 const projects = [
@@ -586,7 +586,7 @@ const projects = [
     desc: "Modern animated developer portfolio built using React.js. Features smooth scrolling, Framer Motion animations, project showcase, resume preview, GitHub integration, and responsive design.",
     stack: ["React.js", "Framer Motion", "CSS", "Vite"],
     gh: "https://github.com/mdrehan8084/my-portfolio-animated",
-    live: "#",
+    live: "https://my-portfolio-animated-beta.vercel.app/",
   },
 ];
 
