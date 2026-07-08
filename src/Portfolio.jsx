@@ -522,14 +522,7 @@ const projects = [
     gh: "https://github.com/mdrehan8084/carDekho-clone-frontend",
     live: "https://car-dekho-clone-frontend.vercel.app",
   },
-  {
-    icon: "🛒",
-    name: "E-Commerce Website",
-    desc: "Laravel based e-commerce project with product management, authentication, CRUD operations and MySQL integration.",
-    stack: ["Laravel", "MySQL", "Bootstrap"],
-    gh: "https://github.com/mdrehan8084/responship-ecommerce-website",
-    live: "#",
-  },
+
   {
     icon: "🎓",
     name: "Student Management System",
@@ -547,14 +540,6 @@ const projects = [
     live: "https://mdrehan8084.howto.rocks/login.php",
   },
 
-  {
-    icon: "🍔",
-    name: "Food Delivery System",
-    desc: "Food ordering application with restaurant listings, menu management and order processing features.",
-    stack: ["PHP", "MySQL", "Bootstrap"],
-    gh: "https://github.com/mdrehan8084/food-delivery-system-app",
-    live: "#",
-  },
   {
     icon: "🌦️",
     name: "Weather API App",
@@ -578,15 +563,6 @@ const projects = [
     stack: ["React.js", "CSS", "Vite"],
     gh: "https://github.com/mdrehan8084/my-portfoilio",
     live: "https://my-portfolio-dhlv.vercel.app/",
-  },
-
-  {
-    icon: "🌐",
-    name: "Portfolio Website",
-    desc: "Modern animated developer portfolio built using React.js. Features smooth scrolling, Framer Motion animations, project showcase, resume preview, GitHub integration, and responsive design.",
-    stack: ["React.js", "Framer Motion", "CSS", "Vite"],
-    gh: "https://github.com/mdrehan8084/my-portfolio-animated",
-    live: "https://my-portfolio-animated-beta.vercel.app/",
   },
 ];
 
@@ -693,7 +669,7 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1 }}
           >
-            <b>8+</b>
+            <b>6+</b>
             <span>Projects</span>
           </motion.div>
 
@@ -914,7 +890,7 @@ function Contact() {
           </a>
           <a
             className="contact-item"
-            href="https://linkedin.com/in/mdrehan-565331415"
+            href="https://www.linkedin.com/in/md-rehan-565331415?utm_source=share_via&utm_content=profile&utm_medium=member_android"
             target="_blank"
             rel="noopener noreferrer"
           >
