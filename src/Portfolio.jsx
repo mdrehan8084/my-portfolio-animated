@@ -524,13 +524,14 @@ const projects = [
   },
 
   {
-    icon: "🎓",
-    name: "Student Management System",
-    desc: "Student/course CRUD, file upload, authentication, pagination, dashboard, soft delete and restore functionality.",
-    stack: ["Laravel", "PHP", "MySQL"],
-    gh: "https://github.com/mdrehan8084/student-management-system",
-    live: "#",
+    icon: "🧑‍💼",
+    name: "Employee Management System",
+    desc: "Admin panel with secure login, employee CRUD via AJAX, live search, department filter, analytics dashboard with charts and password change.",
+    stack: ["PHP", "MySQL", "jQuery", "AJAX"],
+    gh: "https://github.com/mdrehan8084/employee-management-system",
+    live: "http://employee123.site.je/login.php",
   },
+ 
   {
     icon: "👥",
     name: "Multi User Login System",
@@ -540,6 +541,14 @@ const projects = [
     live: "https://mdrehan8084.howto.rocks/login.php",
   },
 
+   {
+    icon: "🎓",
+    name: "Student Management System",
+    desc: "Student/course CRUD, file upload, authentication, pagination, dashboard, soft delete and restore functionality.",
+    stack: ["Laravel", "PHP", "MySQL"],
+    gh: "https://github.com/mdrehan8084/student-management-system",
+    live: "#",
+  },
   {
     icon: "🌦️",
     name: "Weather API App",
@@ -548,14 +557,7 @@ const projects = [
     gh: "https://github.com/mdrehan8084/weather-api-test",
     live: "#",
   },
-  {
-    icon: "📝",
-    name: "Office Blog WordPress",
-    desc: "WordPress blog website with responsive layout, categories, pages and content management features.",
-    stack: ["WordPress", "PHP", "CSS"],
-    gh: "https://github.com/mdrehan8084/office-blog-wordpress",
-    live: "#",
-  },
+
   {
     icon: "⚛️",
     name: "Portfolio Website",
