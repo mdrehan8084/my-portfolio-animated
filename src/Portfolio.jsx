@@ -523,6 +523,16 @@ const projects = [
     live: "https://car-dekho-clone-frontend.vercel.app",
   },
 
+    {
+    icon: "💼",
+    name: "Laravel Job Portal",
+    desc: "Full-stack job portal with Admin, Recruiter and Candidate roles. Job posting, search filters, resume upload, application tracking, policies and an admin dashboard with charts.",
+    stack: ["Laravel 12", "PHP", "MySQL", "Bootstrap"],
+    gh: "https://github.com/mdrehan8084/laravel-job-portal",
+    live: "http://rehanjobs.lovestoblog.com",
+  },
+  
+
   {
     icon: "🧑‍💼",
     name: "Employee Management System",
@@ -549,14 +559,8 @@ const projects = [
     gh: "https://github.com/mdrehan8084/student-management-system",
     live: "#",
   },
-  {
-    icon: "🌦️",
-    name: "Weather API App",
-    desc: "Weather forecast app using REST API integration to display real-time weather data with clean responsive UI.",
-    stack: ["JavaScript", "API", "CSS"],
-    gh: "https://github.com/mdrehan8084/weather-api-test",
-    live: "#",
-  },
+
+
 
   {
     icon: "⚛️",
